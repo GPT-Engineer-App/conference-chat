@@ -12,7 +12,7 @@ const Index = () => {
         </Heading>
         <Text fontSize="xl">Join or start meetings and chat with colleagues.</Text>
 
-        <Flex w="full" justify="center" gap={4}>
+        <Flex w="full" justify="center" gap={2}>
           <Button leftIcon={<FaVideo />} colorScheme="blue" size="lg">
             Start Video Call
           </Button>
@@ -24,6 +24,9 @@ const Index = () => {
           </Button>
           <Button leftIcon={<FaCommentDots />} colorScheme="teal" size="lg">
             Open Chat
+          </Button>
+          <Button leftIcon={<FaCommentDots />} colorScheme="red" size="lg" variant="outline">
+            Do Not Disturb
           </Button>
         </Flex>
 
